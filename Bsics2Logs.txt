@@ -1,0 +1,229 @@
+var x;
+undefined
+console.log(x);
+VM378:2 undefined
+undefined
+switch(prompt("enter your mood","")
+{
+
+	case "very good":
+		console.log("its greaT !!!!!!!!!");
+		break;
+	case "good":
+		console.log("goofy !!!!!!!!!");
+		break;
+    case "not bad":
+		console.log("why dont you try chocolates!!!!!!!!!");
+		break;
+
+
+}
+VM387:3 Uncaught SyntaxError: Unexpected token {(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+switch(prompt("enter your mood",""))
+{
+
+	case "very good":
+		console.log("its greaT !!!!!!!!!");
+		break;
+	case "good":
+		console.log("goofy !!!!!!!!!");
+		break;
+    case "not bad":
+		console.log("why dont you try chocolates!!!!!!!!!");
+		break;
+
+
+}
+VM392:6 its greaT !!!!!!!!!
+undefined
+do{
+
+	console.log("enter a english alphabet")
+	p = prompt("which alpahbet you want to enter","")
+}while(p != "p")
+
+3VM393:4 enter a english alphabet
+"p"
+console.log("printing the odd numbers till 100 using for loop")
+for(var i=1;i<100;i+=2)
+{
+	console.log("\n list of odd numbers are" + i);
+}
+VM398:2 printing the odd numbers till 100 using for loop
+VM398:5 
+ list of odd numbers are1
+VM398:5 
+ list of odd numbers are3
+VM398:5 
+ list of odd numbers are5
+VM398:5 
+ list of odd numbers are7
+VM398:5 
+ list of odd numbers are9
+VM398:5 
+ list of odd numbers are11
+VM398:5 
+ list of odd numbers are13
+VM398:5 
+ list of odd numbers are15
+VM398:5 
+ list of odd numbers are17
+VM398:5 
+ list of odd numbers are19
+VM398:5 
+ list of odd numbers are21
+VM398:5 
+ list of odd numbers are23
+VM398:5 
+ list of odd numbers are25
+VM398:5 
+ list of odd numbers are27
+VM398:5 
+ list of odd numbers are29
+VM398:5 
+ list of odd numbers are31
+VM398:5 
+ list of odd numbers are33
+VM398:5 
+ list of odd numbers are35
+VM398:5 
+ list of odd numbers are37
+VM398:5 
+ list of odd numbers are39
+VM398:5 
+ list of odd numbers are41
+VM398:5 
+ list of odd numbers are43
+VM398:5 
+ list of odd numbers are45
+VM398:5 
+ list of odd numbers are47
+VM398:5 
+ list of odd numbers are49
+VM398:5 
+ list of odd numbers are51
+VM398:5 
+ list of odd numbers are53
+VM398:5 
+ list of odd numbers are55
+VM398:5 
+ list of odd numbers are57
+VM398:5 
+ list of odd numbers are59
+VM398:5 
+ list of odd numbers are61
+VM398:5 
+ list of odd numbers are63
+VM398:5 
+ list of odd numbers are65
+VM398:5 
+ list of odd numbers are67
+VM398:5 
+ list of odd numbers are69
+VM398:5 
+ list of odd numbers are71
+VM398:5 
+ list of odd numbers are73
+VM398:5 
+ list of odd numbers are75
+VM398:5 
+ list of odd numbers are77
+VM398:5 
+ list of odd numbers are79
+VM398:5 
+ list of odd numbers are81
+VM398:5 
+ list of odd numbers are83
+VM398:5 
+ list of odd numbers are85
+VM398:5 
+ list of odd numbers are87
+VM398:5 
+ list of odd numbers are89
+VM398:5 
+ list of odd numbers are91
+VM398:5 
+ list of odd numbers are93
+VM398:5 
+ list of odd numbers are95
+VM398:5 
+ list of odd numbers are97
+VM398:5 
+ list of odd numbers are99
+undefined
+console.log("printing the complete table of 2 using while loop \n")
+var b=0;
+while(b<20)
+{
+	console.log(b);
+	b=b+2;	
+}
+VM403:2 printing the complete table of 2 using while loop 
+
+VM403:6 0
+VM403:6 2
+VM403:6 4
+VM403:6 6
+VM403:6 8
+VM403:6 10
+VM403:6 12
+VM403:6 14
+VM403:6 16
+VM403:6 18
+20
+if(! isNaN(a))
+	console.log("you have entered a number");
+else
+	console.log("you have entered NaN");
+VM404:2 Uncaught ReferenceError: a is not defined(…)(anonymous function) @ VM404:2InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+var a = prompt("please enter a valid number")
+if(! isNaN(a))
+	console.log("you have entered a number");
+else
+	console.log("you have entered NaN");
+
+VM405:4 you have entered a number
+undefined
+var a = prompt("please enter a valid number")
+if(! isNaN(a))
+	console.log("you have entered a number");
+else
+	console.log("you have entered NaN");
+
+VM406:6 you have entered NaN
+undefined
+console.log("console.log -- It is used as a print statement");
+console.log("Math.max function is used to print the maximum number of all the numbers given \n ")
+console.log(Math.max('5,7,10,99,87,55,46'));
+console.log("Math.min function is used to print the minimum number of all the numbers given \n ")
+console.log(Math.min('5,7,10,99,87,55,46'));
+console.log("the concept of conditional execution starts from here")
+
+VM407:2 console.log -- It is used as a print statement
+VM407:3 Math.max function is used to print the maximum number of all the numbers given 
+ 
+VM407:4 NaN
+VM407:5 Math.min function is used to print the minimum number of all the numbers given 
+ 
+VM407:6 NaN
+VM407:7 the concept of conditional execution starts from here
+undefined
+console.log("console.log -- It is used as a print statement");
+console.log("Math.max function is used to print the maximum number of all the numbers given \n ")
+console.log(Math.max(5,7,10,99,87,55,46));
+console.log("Math.min function is used to print the minimum number of all the numbers given \n ")
+console.log(Math.min(5,7,10,99,87,55,46));
+VM408:2 console.log -- It is used as a print statement
+VM408:3 Math.max function is used to print the maximum number of all the numbers given 
+ 
+VM408:4 99
+VM408:5 Math.min function is used to print the minimum number of all the numbers given 
+ 
+VM408:6 5
+undefined
+console.log("Lets start from the beginning");
+alert("It is used to provide user with a alert message");
+prompt("it is used to get input from the user","");
+confirm("it is used as a confimation alert");
+VM409:2 Lets start from the beginning
+true
