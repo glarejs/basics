@@ -1,0 +1,184 @@
+//function to calculate the area of a square
+var area = function(x){
+	return x*x;
+}
+undefined
+console.log(area(20));
+VM215:2 400
+undefined
+//function with no parameters
+var noParam = function(){
+	console.log("I am Not having any parameters");
+}
+//function with more than 1 parameters
+var Param = function(l , b){
+	var area = l*b;
+	console.log("\n the area of the rectangle is" + area);
+}
+undefined
+noparam();
+VM253:2 Uncaught ReferenceError: noparam is not defined(…)(anonymous function) @ VM253:2InjectedScript._evaluateOn @ VM70:904InjectedScript._evaluateAndWrap @ VM70:837InjectedScript.evaluate @ VM70:693
+console.log(noParam());
+VM220:4 I am Not having any parameters
+VM342:2 undefined
+undefined
+Param();
+VM220:9 
+ the area of the rectangle isNaN
+undefined
+Param(10,15);
+VM220:9 
+ the area of the rectangle is150
+undefined
+
+var a="i m global"
+var scope= function(){
+	var a="i m local"
+}
+console.log("after all this \t" + a);
+VM409:6 after all this 	i m global
+undefined
+var scope2 = function(){
+	a="i m local in Scope 2"
+}
+console.log(a);
+VM506:5 i m global
+undefined
+//what happens to the scope if we do nesting of functions. let's see !!
+var outer = function(){
+	var a;
+	var add = function(x,y){
+		a=x+y;
+	}
+	var sub = function(x,y){
+		a=x-y;
+	}
+	var mul = function(x,y){
+		a=x*y;
+	}
+	var div = function(x,y){
+		a=x/y;
+	}
+	add(5,7);
+	sub(19,12);
+	mul(10,20);
+	div(100,5);
+	return a;
+}
+undefined
+console.log(outer());
+VM584:2 20
+undefined
+//what happens to the scope if we do nesting of functions. let's see !!
+var outer = function(){
+	var a;
+	var add = function(x,y){
+		a=x+y;
+	}
+	var sub = function(x,y){
+		a=x-y;
+	}
+	var mul = function(x,y){
+		a=x*y;
+	}
+	var div = function(x,y){
+		a=x/y;
+	}
+	add(5,7);
+	sub(19,12);
+	mul(10,20);
+	div(100,5);
+	return a;
+};
+undefined
+console.log(outer());
+VM658:2 20
+undefined
+//what happens to the scope if we do nesting of functions. let's see !!
+var outer = function(){
+	var a;
+	var add = function(x,y){
+		a=x+y;
+	}
+	var sub = function(x,y){
+		a=x-y;
+	}
+	var mul = function(x,y){
+		a=x*y;
+	}
+	var div = function(x,y){
+		a=x/y;
+	}
+	add(5,7);
+	return a;
+	sub(19,12);
+	return a;
+	mul(10,20);
+	return a;
+	div(100,5);
+	return a;
+};
+undefined
+console.log(outer());
+VM740:2 12
+undefined
+//what happens to the scope if we do nesting of functions. let's see !!
+var outer = function(){
+	var a;
+	var add = function(x,y){
+		a=x+y;
+	}
+	var sub = function(x,y){
+		a=x-y;
+	}
+	var mul = function(x,y){
+		a=x*y;
+	}
+	var div = function(x,y){
+		a=x/y;
+	}
+	add(5,7);
+	console.log(a);
+	sub(19,12);
+	console.log(a);
+	mul(10,20);
+	console.log(a);
+	div(100,5);
+	console.log(a);
+};
+undefined
+console.log(outer());
+VM741:18 12
+VM741:20 7
+VM741:22 200
+VM741:24 20
+VM838:2 undefined
+undefined
+
+var a="abc"
+console.log(a);
+{
+	var a="pqr"
+	console.log(a);
+}
+console.log(a);
+VM839:3 abc
+VM839:6 pqr
+VM839:8 pqr
+undefined
+
+// recursion
+var recu = function (base, power){
+	if (power == 0)
+		return 1;
+	else
+		return base * recu(base,power-1);
+}
+
+undefined
+console.log(recu(5,2));
+VM926:2 25
+undefined
+console.log(recu(2,5));
+VM963:2 32
+undefined
