@@ -1,0 +1,97 @@
+var arr=[9,8,7,6,5,4,1,2,3];
+undefined
+console.log(arr[3]);
+VM250:2 6
+undefined
+console.log(arr);
+VM359:2 [9, 8, 7, 6, 5, 4, 1, 2, 3]
+undefined
+console.log(arr[5-5]);
+VM452:2 9
+undefined
+console.log(arr[3*2]);
+VM529:2 1
+undefined
+
+var a="javascript";
+var arr1=[];
+var c=console.log(a.toUpperCase());
+console.log(arr1);
+arr1.push("adding");
+console.log("\n" + arr1);
+arr1.push("the","values","dynamically","using","push");
+console.log("\n"+arr1);
+console.log(c.toLowerCase());
+console.log(arr1.join(""));
+console.log(arr1.pop());
+
+VM720:4 JAVASCRIPT
+VM720:5 []
+VM720:7 
+adding
+VM720:9 
+adding,the,values,dynamically,using,push
+VM720:10 Uncaught TypeError: Cannot read property 'toLowerCase' of undefined(…)(anonymous function) @ VM720:10InjectedScript._evaluateOn @ VM70:904InjectedScript._evaluateAndWrap @ VM70:837InjectedScript.evaluate @ VM70:693
+var a="javascript";
+var arr1=[];
+var c="ABCED";
+console.log(a.toUpperCase());
+console.log(arr1);
+arr1.push("adding");
+console.log("\n" + arr1);
+arr1.push("the","values","dynamically","using","push");
+console.log("\n"+arr1);
+console.log(c.toLowerCase());
+console.log(arr1.join(""));
+console.log(arr1.pop());
+VM721:5 JAVASCRIPT
+VM721:6 []
+VM721:8 
+adding
+VM721:10 
+adding,the,values,dynamically,using,push
+VM721:11 abced
+VM721:12 addingthevaluesdynamicallyusingpush
+VM721:13 push
+undefined
+
+
+var arr2 = {
+	name : ["ram","shyam","max","ben"],
+	value : [5,6,3,23],
+	flag: false,
+};
+console.log(arr2);
+console.log(arr2.name);
+console.log(arr2.name[2]);
+console.log(arr2.flag);
+console.log(arr2.value);
+VM723:7 Object {name: Array[4], value: Array[4], flag: false}
+VM723:8 ["ram", "shyam", "max", "ben"]
+VM723:9 max
+VM723:10 false
+VM723:11 [5, 6, 3, 23]
+undefined
+
+
+delete arr2.flag ;
+console.log(arr2.flag);
+VM724:3 undefined
+undefined
+
+
+console.log("value" in arr2);
+console.log("flag" in arr2);
+VM727:2 true
+VM727:3 true
+undefined
+delete arr2.flag ;
+console.log(arr2.flag);
+VM756:3 undefined
+undefined
+console.log("value" in arr2);
+console.log("flag" in arr2);
+VM757:2 true
+VM757:3 false
+undefined
+
