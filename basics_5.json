@@ -1,0 +1,181 @@
+[
+"1" :
+{
+"content":"What is the numerical range of a char in Java? ",
+"a" :"-128 to 127",
+"b" :"0 to 256",
+"c" : "0 to 32767",
+"d" : "0 to 65535",
+"solution":"0 to 65535"
+
+},
+
+"2" :
+{
+"content":"Which of these coding types is used for data type characters in Java?" ,
+"a" :"ASCII",
+"b" :" ISO-LATIN-1",
+"c" : "UNICODE",
+"d" : "None of the mentioned",
+"solution":"UNICODE"
+
+},
+
+"3" :
+{
+"content":"Which of these values can a boolean variable contain?",
+"a" : "True & False",
+"b" :" 0 & 1",
+"c" :"Any integer value.",
+"d" :"Both a & b",
+"solution" : "True & False"
+},
+"4" :
+{
+"content":" Which of these occupy first 0 to 127 in Unicode character set used for characters in Java?",
+"a" : "ASCII",
+"b" :" ISO-LATIN-1",
+"c" :"None of the mentioned",
+"d" :"Both a & b",
+"solution" : "Both a & b"
+},
+
+"5" :
+{
+"content":" Which one is a valid declaration of a boolean?",
+"a" : "boolean b1 = 1;",
+"b" :"boolean b2 = ‘false’;",
+"c" :"boolean b3 = false;",
+"d" :"boolean b4 = ‘true’",
+"solution" : "boolean b3 = false;"
+},
+"6" :
+{
+"content":"What is the range of data type short in Java?",
+"a" : " -128 to 127",
+"b" :"-32768 to 32767",
+"c" :"-2147483648 to 2147483647",
+"d" :"None of the mentioned",
+"solution" : "-32768 to 32767"
+},
+"7" :
+{
+"content":" What is the range of data type byte in Java?",
+"a" : "-128 to 127",
+"b" :"-32768 to 32767",
+"c" :"-2147483648 to 2147483647",
+"d" :"None of the mentioned",
+"solution" : "-128 to 127"
+},
+"8" :
+{
+"content":"An expression involving byte, int, and literal numbers is promoted to which of these?",
+"a" : "int",
+"b" :"long",
+"c" :" byte",
+"d" :"float",
+"solution" : "int"
+},
+
+"9" :
+{
+"content":"Which of these literals can be contained in a data type float variable?",
+"a" : "1.7e-308",
+"b" :"3.4e-038",
+"c" :"1.7e+308",
+"d" :"3.4e-050",
+"solution" : "3.4e-038"
+},
+"10" :
+{
+"content":"Which data type value is returned by all transcendental math functions?",
+"a" : "int",
+"b" :" float",
+"c" :"double",
+"d" :"long",
+"solution" : "double"
+},
+"11" :
+{
+"content":"Which of these operators is used to allocate memory to array variable in Java?",
+"a" : "malloc",
+"b" :"alloc",
+"c" :"new",
+"d" :"new malloc",
+"solution" : "new"
+},
+"12" :
+{
+"content":"Which of these is an incorrect array declaration?",
+"a" : "int arr[] = new int[5]",
+"b" :"int [] arr = new int[5]",
+"c" :"int arr[] arr = new int[5]",
+"d" :"int arr[] = int [5] new",
+"solution" : "int arr[] = int [5] new"
+},
+
+"14" :
+{
+"content":"Which of these is an incorrect Statement?",
+"a" : "It is necessary to use new operator to initialize an array.",
+"b" :"Array can be initialized using comma separated expressions surrounded by curly braces.",
+"c" :"Array can be initialized when they are declared.",
+"d" :"None of the mentioned",
+"solution" : "It is necessary to use new operator to initialize an array."
+},
+"15" :
+{
+"content":"Which of these is necessary to specify at time of array initialization?",
+"a" : "Row",
+"b" :" Column",
+"c" :"Both Row and Column",
+"d" :" None of the mentioned",
+"solution" : "Row"
+},
+"16" :
+{
+"content":"Which of the following can be operands of arithmetic operators?",
+"a" : "Numeric",
+"b" :"Boolean",
+"c" :"Characters",
+"d" :"Both Boolean & Characters",
+"solution" : "Both Boolean & Characters"
+},
+"17" :
+{
+"content":"Modulus operator, %, can be applied to which of these?",
+"a" : "Integers",
+"b" :" Floating – point numbers",
+"c" :" Both Integers and floating – point numbers.",
+"d" :"None of the mentioned",
+"solution" : "Both Integers and floating – point numbers."
+},
+
+"18" :
+{
+"content":"Decrement operator, –, decreases value of variable by what number?",
+"a" : "1",
+"b" :"2",
+"c" :"3",
+"d" :"4",
+"solution" : "1"
+},
+"19" :
+{
+"content":"Which of these statements are incorrect?",
+"a" : "Assignment operators are more efficiently implemented by Java run-time system than their equivalent long forms.",
+"b" :"Assignment operators run faster than their equivalent long forms.",
+"c" :"Assignment operators can be used only with numeric and character data type.",
+"d" :"None",
+"solution" : "None"
+},
+"20" :
+{
+"content":"Which of these is not a bitwise operator?",
+"a" : "&",
+"b" :"&=",
+"c" :" |=",
+"d" :"<=",
+"solution" : "<="
+}
+]

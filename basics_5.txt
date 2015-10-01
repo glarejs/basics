@@ -1,0 +1,465 @@
+
+VM79:2 Uncaught ReferenceError: Sum is not defined(…)(anonymous function) @ VM79:2InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+console.log(sum(range(1,50)));
+VM80:2 Uncaught ReferenceError: sum is not defined(…)(anonymous function) @ VM80:2InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+var a=1;
+var i=0;
+while(i< 10)
+{
+	a +=i;
+	i++;
+}
+9
+var a=1;
+var i=0;
+while(i< 10)
+{
+	a +=i;
+	i++;console.log(a);
+}
+VM86:7 1
+VM86:7 2
+VM86:7 4
+VM86:7 7
+VM86:7 11
+VM86:7 16
+VM86:7 22
+VM86:7 29
+VM86:7 37
+VM86:7 46
+undefined
+var a=1;
+var i=0;
+while(i <= 10)
+{
+	a +=i;
+	i++;
+}
+
+10
+var a=1;
+var i=0;
+while(i <= 10)
+{
+	a +=i;
+	i++;
+}
+console.log("the sum of the following is" + a);
+
+VM182:9 the sum of the following is56
+undefined
+var a=1;
+var i=0;
+while(i <= 10)
+{
+	a +=i;
+	i++;
+}
+console.log("the sum of the following is" + a);
+
+VM183:9 the sum of the following is56
+undefined
+var a=0;
+var i=0;
+while(i <= 10)
+{
+	a +=i;
+	i++;
+}
+console.log("the sum of the following is" + a);
+
+VM184:9 the sum of the following is55
+undefined
+var a=0;
+var i=0;
+while(i <= 10)
+{
+	a +=i;
+	i++;
+}
+console.log("the sum of the following is" + a);
+
+VM185:9 the sum of the following is55
+undefined
+var a=0;
+var i=0;
+while(i <= 10)
+{
+	a +=i;
+	i++;
+}
+console.log("the sum of the following is \n " + a);
+VM186:9 the sum of the following is 
+ 55
+undefined
+
+
+
+VM206:5 1
+VM206:12 5
+VM206:18 the step by step sum is 	undefined1
+VM206:18 the step by step sum is 	undefined12
+VM206:18 the step by step sum is 	undefined123
+VM206:18 the step by step sum is 	undefined1234
+undefined
+var sum,range,i;
+
+i = prompt("please enter the start of the range");
+console.log(i);
+if(i == NaN){
+	alert("you have entered a invalid number");
+}
+else
+{
+	range= prompt("please enter the end of the range");
+	console.log(range);
+}
+parseInt(i);
+parseInt(range);
+while(i<range)
+{
+	sum +=i;
+	i++;
+	console.log("the step by step sum is \t" + sum);
+}
+VM211:5 1
+VM211:12 10
+VM211:20 the step by step sum is 	undefined12341
+VM211:20 the step by step sum is 	undefined123412
+VM211:20 the step by step sum is 	undefined1234123
+VM211:20 the step by step sum is 	undefined12341234
+VM211:20 the step by step sum is 	undefined123412345
+VM211:20 the step by step sum is 	undefined1234123456
+VM211:20 the step by step sum is 	undefined12341234567
+VM211:20 the step by step sum is 	undefined123412345678
+VM211:20 the step by step sum is 	undefined1234123456789
+undefined
+var sum,range,i;
+
+i = prompt("please enter the start of the range");
+console.log(i);
+if(i == NaN){
+	alert("you have entered a invalid number");
+}
+else
+{
+	range= prompt("please enter the end of the range");
+	console.log(range);
+}
+var a=parseInt(i);
+var b=parseInt(range);
+while(a<b)
+{
+	sum +=a;
+	a++;
+	console.log("the step by step sum is \t" + sum);
+}
+VM216:5 1
+VM216:12 5
+VM216:20 the step by step sum is 	undefined12341234567891
+VM216:20 the step by step sum is 	undefined123412345678912
+VM216:20 the step by step sum is 	undefined1234123456789123
+VM216:20 the step by step sum is 	undefined12341234567891234
+undefined
+var sum,range,i;
+
+i = prompt("please enter the start of the range");
+console.log(i);
+if(i == NaN){
+	alert("you have entered a invalid number");
+}
+else
+{
+	range= prompt("please enter the end of the range");
+	console.log(range);
+}
+var a=parseInt(i);
+var b=parseInt(range);
+while(a<b)
+{
+	sum +=a;
+	a++;
+	console.log("the step by step sum is \t" + sum);
+}
+VM217:5 1
+VM217:12 5
+VM217:20 the step by step sum is 	undefined123412345678912341
+VM217:20 the step by step sum is 	undefined1234123456789123412
+VM217:20 the step by step sum is 	undefined12341234567891234123
+VM217:20 the step by step sum is 	undefined123412345678912341234
+undefined
+var sum=0,range,i;
+
+i = prompt("please enter the start of the range");
+console.log(i);
+if(i == NaN){
+	alert("you have entered a invalid number");
+}
+else
+{
+	range= prompt("please enter the end of the range");
+	console.log(range);
+}
+var a=parseInt(i);
+var b=parseInt(range);
+while(a<b)
+{
+	sum +=a;
+	a++;
+	console.log("the step by step sum is \t" + sum);
+}
+VM222:5 1
+VM222:12 5
+VM222:20 the step by step sum is 	1
+VM222:20 the step by step sum is 	3
+VM222:20 the step by step sum is 	6
+VM222:20 the step by step sum is 	10
+undefined
+
+
+
+var arr=[1,2,3]
+console.log(arr);
+VM223:3 [1, 2, 3]
+undefined
+var arr=[1,2,3]
+for(var i=0;i<arr.length;i++){
+	var a=arr[i];
+	console.log("the array element \t"+i "is = \t" + a);
+}
+console.log(arr);
+VM224:5 Uncaught SyntaxError: missing ) after argument list(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+var arr=[1,2,3]
+for(var i=0;i<arr.length;i++){
+	var a=arr[i];
+	console.log("the array element \t"+ a);
+}
+console.log(arr);
+VM225:5 the array element 	1
+VM225:5 the array element 	2
+VM225:5 the array element 	3
+VM225:7 [1, 2, 3]
+undefined
+function forEach(a,task){
+	for( var i=0;i<a.length,i++);
+	action(a[i]);
+}
+
+VM226:3 Uncaught SyntaxError: Unexpected token )(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+forEach(["1","2","3"],console.log());
+VM373:2 Uncaught ReferenceError: forEach is not defined(…)(anonymous function) @ VM373:2InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+function forEach(a,task){
+	for( var i=0;i<a.length,i++);
+	task(a[i]);
+}
+
+VM374:3 Uncaught SyntaxError: Unexpected token )(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+function forEach(a,task){
+	for( var i=0;i<a.length,i++)
+	task(a[i]);
+}
+
+VM375:3 Uncaught SyntaxError: Unexpected token )(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+function forEach(a,task){
+	for( var i=0;i<a.length,i++)
+		action(a[i]);
+}
+forEach(["1","2","3"],console.log);
+VM376:4 Uncaught SyntaxError: Unexpected token )(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+function forEach(a,task){
+	for( var i=0;i<a.length;i++)
+		action(a[i]);
+}
+forEach(["1","2","3"],console.log);
+VM377:4 Uncaught ReferenceError: action is not defined(…)forEach @ VM377:4(anonymous function) @ VM377:6InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+function forEach(a,task){
+	for( var i=0;i<a.length;i++)
+		task(a[i]);
+}
+forEach(["1","2","3"],console.log);
+VM378:4 Uncaught TypeError: Illegal invocation(…)forEach @ VM378:4(anonymous function) @ VM378:6InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+function forEach(a,task){
+	for( var i=0;i<a.length;i++)
+		task(a[i]);
+}
+forEach(["1","2","3"],alert);
+undefined
+
+
+var a=[1,2,3,4,5,6],total=0;
+function sum(a , function(total) {
+	total +=a;
+});
+console.log(total);
+VM380:3 Uncaught SyntaxError: Unexpected token function(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+var a=[1,2,3,4,5,6],total=0;
+sum(a , function(total) {
+	total +=a;
+});
+console.log(total);
+VM385:3 Uncaught TypeError: sum is not a function(…)(anonymous function) @ VM385:3InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+var a=[1,2,3,4,5,6],total=0;
+function sum(a , function(total) {
+	total +=a;
+});
+console.log(total);
+VM386:3 Uncaught SyntaxError: Unexpected token function(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+var a=[1,2,3,4,5,6],total=0;
+forEach(a , function(total) {
+	total +=a;
+});
+console.log(total);
+VM387:6 0
+undefined
+var a=[1,2,3,4,5,6],total=0;
+forEach(a , function(total) {
+	total +=a;
+});
+console.log(total);
+VM388:6 0
+undefined
+var a=[1,2,3,4,5,6],total=0;
+function abc(a , function(total) {
+	total +=a;
+});
+console.log(total);
+VM389:3 Uncaught SyntaxError: Unexpected token function(…)InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+var a=[1,2,3,4,5,6],total=0;
+forEach (a , function(total) {
+	total +=a;
+});
+console.log(total);
+VM390:6 0
+undefined
+function gT(n){
+	return function(m){
+		m>n;
+	};
+}
+var gT5=gT(5);
+console.log(gT5(11));
+
+
+VM391:8 undefined
+undefined
+function gT(n){
+	return function(m){
+		m>n;
+	};
+}
+var gT5=gT(5);
+console.log(gT5(11));
+
+
+VM392:8 undefined
+undefined
+function gT(n){
+	return function(m){
+		return m>n;
+	};
+}
+var gT5=gT(5);
+console.log(gT5(11));
+
+VM393:8 true
+undefined
+function gT(n){
+	return function(m){
+		return m>n;
+	};
+}
+var gT5=gT(20);
+console.log(gT5(11));
+
+VM394:8 false
+undefined
+function noi(f){
+	return function(arg){
+		console.log("calling with",arg);
+        var val=f(arg);
+        console.log("called with",arg,"-got",val);
+        return val;
+	};
+}
+noi(boolean)(1);
+VM395:10 Uncaught ReferenceError: boolean is not defined(…)(anonymous function) @ VM395:10InjectedScript._evaluateOn @ VM69:904InjectedScript._evaluateAndWrap @ VM69:837InjectedScript.evaluate @ VM69:693
+function noi(f){
+	return function(arg){
+		console.log("calling with",arg);
+        var val=f(arg);
+        console.log("called with",arg,"-got",val);
+        return val;
+	};
+}
+noi(Boolean)(1);
+VM396:4 calling with 1
+VM396:6 called with 1 -got true
+true
+var a=JSON.stringify({
+	"name": "rama",
+	"sex": "m",
+	"born":"1958",
+	"father":"das"
+},
+{
+	"name": "shama",
+	"sex": "f",
+	"born":"1998",
+	"father":"shiv sunder"
+},
+
+{
+	"name": "bajrangi",
+	"sex": "m",
+	"born":"1985",
+	"father":"anjanaa"
+});
+console.log(a);
+VM399:21 {"name":"rama","sex":"m","born":"1958","father":"das"}
+undefined
+var a=JSON.stringify({
+	"name": "rama",
+	"sex": "m",
+	"born":"1958",
+	"father":"das"
+},
+{
+	"name": "shama",
+	"sex": "f",
+	"born":"1998",
+	"father":"shiv sunder"
+},
+
+{
+	"name": "bajrangi",
+	"sex": "m",
+	"born":"1985",
+	"father":"anjanaa"
+});
+console.log(a);
+console.log(JSON.parse(a).born);
+VM400:21 {"name":"rama","sex":"m","born":"1958","father":"das"}
+VM400:22 1958
+undefined
+var a=JSON.stringify({
+	"name": "rama",
+	"sex": "m",
+	"born":"1958",
+	"father":"das"
+},{
+	"name": "shama",
+	"sex": "f",
+	"born":"1998",
+	"father":"shiv sunder"
+},{
+	"name": "bajrangi",
+	"sex": "m",
+	"born":"1985",
+	"father":"anjanaa"
+});
+console.log(a);
+console.log(JSON.parse(a).born);
+VM401:18 {"name":"rama","sex":"m","born":"1958","father":"das"}
+VM401:19 1958
+undefined
+
